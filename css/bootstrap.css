@@ -121,6 +121,12 @@ body {
   text-align: center;
 }
 
+.carousel-image {
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+}
+
 footer { margin-top: 45px; padding-top: 5px; border-top: 1px solid #eaeaea; color: #343a40; }
 footer a { color: #343a40; }
 footer a:hover { color: #343a40; }
