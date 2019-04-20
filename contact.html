@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link href='css/bootstrap.css' rel='stylesheet' />
+</head>
+<body>
+<div class="main_container">
+    <div class="content_container">
+        <div class='container-fluid' id='header'></div>
+        <div class="body_content">
+            <h3 class="page_subheader">Methods of Contact</h3>
+            <p>
+                Email: <i class="fa fa-envelope"></i><a href="mailto:email@example.com"> james@example.com</a><br>
+                Github: <i class="fa fa-github"></i><a href='https://github.com/ottter' target='_blank'> ottter</a> <br>
+                Twitter: <i class="fa fa-twitter"></i><a href='#' target='_blank'> @james</a> <br>
+            </p>
+            <h3 class="page_subheader">Send me a Comment</h3>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md">
+                        <label for="donate_first">Name:</label>
+                        <input type="text" class="form-control" id="donate_first" required>
+                    </div>
+                    <div class="form-group col-md">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comment:</label>
+                    <textarea class="form-control" rows="5" id="comment" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-dark">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class='container-fluid' id='footer'></div>
+</div>
+
+<script src='https://code.jquery.com/jquery-2.1.3.js'></script>
+<script src='js/bootstrap.js'></script>
+<script src='js/partials.js'></script>
+</body>
+</html>

@@ -117,6 +117,10 @@ body {
   padding: 75px 0;
 }
 
+.page_subheader {
+  text-align: center;
+}
+
 footer { margin-top: 45px; padding-top: 5px; border-top: 1px solid #eaeaea; color: #343a40; }
 footer a { color: #343a40; }
 footer a:hover { color: #343a40; }
@@ -4223,8 +4227,8 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .navbar > .container,
