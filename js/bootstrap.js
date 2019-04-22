@@ -4,6 +4,12 @@
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 
+function createHTML(templateID, value) {
+  var html = document.getElementById(templateID).innerHTML;
+  html = html.replace(/#value#/g, value);
+  return html;
+}
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery'), require('popper.js')) :
   typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'popper.js'], factory) :

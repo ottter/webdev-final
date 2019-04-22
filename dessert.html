@@ -10,15 +10,117 @@
     <div class="content_container">
         <div class='container-fluid' id='header'></div>
         <div class="body_content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper, nisi at interdum tincidunt, ipsum nulla feugiat nisl, vel consequat sapien augue in ante. Donec congue justo quis erat bibendum, id varius felis dictum. Aliquam sit amet dolor vitae ex rutrum gravida. Donec efficitur sem a nibh euismod suscipit. Quisque ac feugiat turpis. Etiam eu neque ante. Sed tellus dui, congue ut libero vel, convallis sodales mauris. Phasellus congue mattis leo sed interdum.</p>
-            <p>Pellentesque hendrerit ligula eu ipsum tristique imperdiet. Maecenas metus lectus, tempus non lacinia et, mollis eget enim. Cras eu cursus ligula, hendrerit auctor tellus. Nam sit amet lobortis est. Vestibulum tellus magna, pharetra in mollis quis, commodo ut diam. Nulla facilisi. Integer dignissim eros vehicula sem finibus, sit amet commodo velit semper. Mauris ac enim tristique, placerat erat id, elementum purus. Pellentesque commodo dignissim nunc nec placerat.</p>
+    <!--CAST IRON APPLE PIE-->
+            <a id="des_applepie"><h2>Cast Iron Apple Pie</h2></a>
+            <h4 class="body_subtitle">Ingredients</h4>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <h4 class="body_subtitle">Instructions</h4>
+            <div class="recipe_instructions">
+                <ol>
+                    <li><span>1.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>2.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>3.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>4.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>5.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>6.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>7.</span><p>test fwefwe fwef wef wef wef test fwefwe fwef wef wef wef test fwefwe fwef wef wef wef test fwefwe fwef wef wef wef test fwefwe fwef wef wef wef </p></li>
+                </ol>
+            </div>
+
+    <!--EGGNOG CHEESECAKE-->
+            <a id="des_cheesecake"><hr><h2>Eggnog Cheesecake</h2></a>
+            <h4 class="body_subtitle">Ingredients</h4>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <h4 class="body_subtitle">Instructions</h4>
+            <div class="recipe_instructions">
+                <ol>
+                    <li><span>1.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>2.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>3.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>4.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>5.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>6.</span><p>test fwefwe fwef wef wef wef </p></li>
+                </ol>
+            </div>
+
+    <!--CHOCOLATE CHIP COOKIES-->
+            <a id="des_chocchip"><hr><h2>Chocolate Chip Cookies</h2></a>
+            <h4 class="body_subtitle">Ingredients</h4>
+                <ul class="ingredient-list-container"></ul>
+
+            <h4 class="body_subtitle">Instructions</h4>
+            <div class="recipe_instructions">
+                <ol>
+                    <li><span>1.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>2.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>3.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>4.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>5.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>6.</span><p>test fwefwe fwef wef wef wef </p></li>
+                </ol>
+            </div>
+
+    <!--KEY LIME PIE-->
+            <a id="des_keylime"><hr><h2>Key Lime Pie</h2></a>
+            <h4 class="body_subtitle">Ingredients</h4>
+
+            <ul class="ingredient-list-container"></ul>
+
+            <h4 class="body_subtitle">Instructions</h4>
+            <div class="recipe_instructions">
+                <ol>
+                    <li><span>1.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>2.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>3.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>4.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>5.</span><p>test fwefwe fwef wef wef wef </p></li>
+                    <li><span>6.</span><p>test fwefwe fwef wef wef wef </p></li>
+                </ol>
+            </div>
         </div>
     </div>
     <div class='container-fluid' id='footer'></div>
 </div>
 
+<script class="ingredient-template" type="text/x-handlebars-template">
+    First loop: <br />
+    {{#each choc_chip}}
+    <label class="checkbox-container">{{this}}
+        <input type="checkbox"><span class="checkmark"></span>
+    </label>
+    {{/each}}
+
+    Second loop: <br />
+    {{#each key_lime}}
+    <label class="checkbox-container">{{this}}
+        <input type="checkbox"><span class="checkmark"></span>
+    </label>
+    {{/each}}
+</script>
 <script src='https://code.jquery.com/jquery-2.1.3.js'></script>
+<script src="js/handlebars-v4.1.2.js"></script>
 <script src='js/bootstrap.js'></script>
 <script src='js/partials.js'></script>
+<script src="js/ingredients.js"></script>
 </body>
 </html>
