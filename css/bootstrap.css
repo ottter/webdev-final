@@ -236,6 +236,10 @@ body {
   transform: rotate(45deg);
 }
 
+.site-map a {
+  color: black;
+}
+
 footer { margin-top: 45px; padding-top: 5px; border-top: 1px solid #eaeaea; color: #343a40; }
 footer a { color: #343a40; }
 footer a:hover { color: #343a40; }
