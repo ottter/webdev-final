@@ -132,6 +132,15 @@ body {
   max-height: 650px;
 }
 
+.recipe-image {
+  border: 1px solid #F24D29;
+  border-radius: 4px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .recipe_instructions div {
   width: 500px;
