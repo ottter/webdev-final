@@ -92,6 +92,7 @@ var ingredients = {
         "1 cup heavy cream",
         "1 egg",
         "3 garlic cloves (minced)",
+        "pie crust",
         "seasonings: salt pepper sage oregano paprika"
     ],
     "tofu_ss": [
@@ -108,6 +109,7 @@ var ingredients = {
         "1 small onion",
         "8 oz broccoli",
         "2 tbsp soy sauce",
+        "1/4 cup sesame sauce (optional)",
         "salt & pepper",
         "starch option of choice (I used udon!)"
     ]

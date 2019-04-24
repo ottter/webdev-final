@@ -159,7 +159,7 @@ body {
 }
 
 .recipe_instructions li p {
-  font: 16px/1.5 Helvetica, sans-serif;
+  font: 17px/1.5 Helvetica, sans-serif;
   padding-left: 60px;
   color: black;
 }
@@ -256,6 +256,7 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  color: #F24D29;
 }
 
 h1, h2, h3, h4, h5, h6 {
