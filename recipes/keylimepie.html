@@ -2,20 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Apple Pie</title>
+    <title>Key Lime Pie</title>
     <link href='../css/bootstrap.css' rel='stylesheet' />
+    <meta name="description" content="Key Lime Pie Recipe">
+    <meta name="keywords" content="recipe, key lime pie, baking, cooking, dessert">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="main_container">
     <div class="content_container">
         <div class='container-fluid' id='header'></div>
         <div class="body_content">
-            <a id="des_keylime"><h2>Cast Iron Apple Pie</h2></a>
+            <h2>Key Lime Pie</h2>
             <hr>
             <h4 class="body_subtitle">Ingredients</h4>
             <ul class="ingredient-list-container"></ul>
             <script class="ingredient-template" type="text/x-handlebars-template">
-                {{#each apple_pie}}
+                {{#each key_lime}}
                 <label class="checkbox-container">{{this}}
                     <input type="checkbox"><span class="checkmark"></span>
                 </label>
@@ -26,19 +29,15 @@
             <div class="recipe_instructions">
                 <ol>
                     <li><span>1.</span><p>Preheat oven to 350°F<br><br></p></li>
-                    <li><span>2.</span><p>Put 1/4 cup butter in pan and place in oven to melt.
-                        Add brown sugar and return to oven<br><br></p></li>
-                    <li><span>3.</span><p>Place pie crust on bottom, then 1/2 the apples, 1/2 cup sugar and 1 tsp cinnamon<br><br></p></li>
-                    <li><span>4.</span><p>Place another pie crust, then the rest of the apples, 1/2 cup sugar and 1 tsp cinnamon<br><br></p></li>
-                    <li><span>5.</span><p>Cover with your third pie crust, cut vents and top with 1/4 cup sugar and butter cubes<br><br></p></li>
-                    <li><span>6.</span><p>Bake for ~45 minutes, or until it looks done<br><br></p></li>
+                    <li><span>2.</span><p>Combine all ingredients (including lime zest) and mix until smooth before adding to crust<br><br></p></li>
+                    <li><span>3.</span><p>Bake for 5-8 minutes, or until small bubbles start to form<br><br></p></li>
+                    <li><span>4.</span><p>Refrigerate completely before serving (Note: It may take some time to take it's proper form<br><br></p></li>
                 </ol>
             </div>
 
-            <img class="recipe-image" src="../img/des_applepie.jpg" alt="Apple Pie">
+            <img class="recipe-image" src="https://www.favfamilyrecipes.com/wp-content/uploads/2018/08/Key-Lime-Pie.jpg" alt="Key Lime Pie">
         </div>
     </div>
-
     <div class='container-fluid' id='footer'></div>
 </div>
 <script src='https://code.jquery.com/jquery-2.1.3.js'></script>

@@ -175,6 +175,11 @@ body {
   position: absolute;
 }
 
+.video-settings {
+    width: 720px;
+    height: 405px;
+}
+
 /* Customize the label (the container) */
 .checkbox-container {
   display: block;
@@ -4442,7 +4447,7 @@ input[type="button"].btn-block {
   background-size: 100% 100%;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 750px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
@@ -4450,7 +4455,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 751px) {
   .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;

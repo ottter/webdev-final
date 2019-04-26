@@ -2,21 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sweet & Sour Tofu</title>
+    <title>French Toast</title>
     <link href='../css/bootstrap.css' rel='stylesheet' />
+    <meta name="description" content="Traditional French Toast Recipe">
+    <meta name="keywords" content="recipe, french toast, baking, cooking, breakfast, french food">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="main_container">
     <div class="content_container">
         <div class='container-fluid' id='header'></div>
         <div class="body_content">
-            <a id="des_keylime"><h2>Sweet and Sour Tofu</h2></a>
-            <h6>Crispy tofu with a bit of spice and a starch of choice</h6>
+            <a id="des_keylime"><h2>French Toast</h2></a>
             <hr>
             <h4 class="body_subtitle">Ingredients</h4>
             <ul class="ingredient-list-container"></ul>
             <script class="ingredient-template" type="text/x-handlebars-template">
-                {{#each tofu_ss}}
+                {{#each french_toast}}
                 <label class="checkbox-container">{{this}}
                     <input type="checkbox"><span class="checkmark"></span>
                 </label>
@@ -26,18 +28,14 @@
             <h4 class="body_subtitle">Instructions</h4>
             <div class="recipe_instructions">
                 <ol>
-                    <li><span>1.</span><p>Crispy Tofu: Preheat oven to 350° F (175° C). Lightly oil a large baking sheet.
-                        Gently press tofu pieces to release as much water as possible. Toss tofu with corn starch and soy sauce (add
-                        a bit of brown sugar for neat twist) and let sit for ~5min. Remove and bake in the preheated oven for 30 minutes,
-                        flipping occasionally<br><br></p>
-                    </li>
-                    <li><span>2.</span><p>Slice, dice and saute the onion and peppers to desired size<br><br></p></li>
-                    <li><span>3.</span><p>Mix in the tofu and Sweet & Sour sauce and remove from hot pan after 15-20 seconds<br><br></p></li>
-                    <li><span>4.</span><p>Serve on rice or noodles<br><br></p></li>
+                    <li><span>1.</span><p>Beat together egg, milk, salt, desired spices and vanilla.<br><br></p></li>
+                    <li><span>2.</span><p>Heat a lightly oiled griddle or skillet over medium-high heat.<br><br></p></li>
+                    <li><span>3.</span><p>Dunk each slice of bread in egg mixture, soaking both sides. Place in pan, and cook on both sides until golden. Serve hot. <br><br></p></li>
                 </ol>
             </div>
+            <p><a href="https://www.allrecipes.com/recipe/7016/french-toast-i/">Source</a></p>
 
-            <img class="recipe-image" src="../img/din_tofuss.jpg" alt="Chicken Pot Pie">
+            <img class="recipe-image" src="https://tastesbetterfromscratch.com/wp-content/uploads/2015/02/Classic-French-Toast-5.jpg" alt="French Toast">
         </div>
     </div>
     <div class='container-fluid' id='footer'></div>
