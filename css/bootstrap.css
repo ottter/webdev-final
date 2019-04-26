@@ -73,11 +73,18 @@ body {
   background-color: #fff;
 }
 
+.branding {
+    font-size: 1.1em;
+    color: #F24D29;
+    font-style: italic;
+}
+
 .bg-blue {
   background-color: pink !important;
 }
 
 .parallax_title {
+  margin-right: auto;
   letter-spacing: -15px;
   font-family: "Open Sans", Verdana, sans-serif;
   color: whitesmoke;
