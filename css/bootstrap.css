@@ -99,6 +99,7 @@ body {
   height: 100vh;
 }
 
+/* Fixed background image on homepage*/
 .parallax_container {
   display: flex;
   flex: 1 0 auto;
@@ -149,6 +150,7 @@ body {
   width: 50%;
 }
 
+/* Ugly/odd way to get customized styling on ordered list*/
 .recipe_instructions div {
   width: 500px;
   margin: 10px
@@ -178,6 +180,18 @@ body {
 .video-settings {
     width: 720px;
     height: 405px;
+}
+
+/* Font imported from Google. Scales slightly with size*/
+.site_title {
+  font: 80px/1.5 'Indie Flower', cursive, sans-serif;
+  font-size: 4vmin;
+  font-weight: bold;
+}
+
+.page_title {
+  font: 80px/1.5 'Indie Flower', cursive, sans-serif;
+  font-size: 8vmin
 }
 
 /* Customize the label (the container) */
